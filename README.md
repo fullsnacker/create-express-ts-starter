@@ -26,13 +26,11 @@ The generated project structure is as follows:
 ```
 my-ex-ts/
 ├── src/
-│   ├── controllers/       # Route controllers
-│   ├── middlewares/       # Express middlewares
-│   ├── routes/            # Route definitions
-│   ├── index.ts           # Main server file
+│   ├── server.ts           # Main server file
 │   └── ...                # Additional configuration files
-├── .eslintrc.js           # ESLint configuration
+├── .eslintrc.mjs           # ESLint configuration
 ├── tsconfig.json          # TypeScript configuration
+├── nodemon.json          # Nodemon configuration
 └── package.json           # Dependencies and scripts
 ```
 
