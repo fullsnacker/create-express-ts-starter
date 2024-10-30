@@ -1,6 +1,6 @@
 {
   "name": "@fullsnacker/create-express-ts-starter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "bin": "./bin/cli.js",
@@ -14,6 +14,10 @@
     "template",
     "starter"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fullsnacker/create-express-ts-starter.git"
+  },
   "author": "fullsnacker",
   "license": "MIT",
   "devDependencies": {
