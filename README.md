@@ -1,1 +1,1 @@
-# express-typescript-generator
+# create-express-ts-starter
