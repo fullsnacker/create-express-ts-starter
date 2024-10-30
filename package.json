@@ -1,6 +1,6 @@
 {
   "name": "@fullsnacker/create-express-ts-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": "./bin/cli.js",
