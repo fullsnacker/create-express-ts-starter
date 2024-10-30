@@ -1,0 +1,32 @@
+{
+  "name": "create-express-ts-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "nodemon --exec 'ts-node' src/server.ts",
+    "lint": "eslint ./src"
+  },
+  "keywords": [
+    "template",
+    "starter"
+  ],
+  "author": "fullsnacker",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.9",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
