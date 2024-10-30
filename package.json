@@ -1,9 +1,9 @@
 {
-  "name": "fullsnacker/create-express-ts-starter",
+  "name": "@fullsnacker/create-express-ts-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "bin": "./bin/cli/js",
+  "bin": "./bin/cli.js",
   "scripts": {
     "start": "node dist/server.js",
     "build": "tsc",
