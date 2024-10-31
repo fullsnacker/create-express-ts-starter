@@ -12,6 +12,8 @@ npx @fullsnacker/create-express-ts-starter my-ex-ts
 
 This will generate a new folder named 'my-ex-ts' with a fully configured starter project.
 
+It will also initialize a GIT repository and a README file for your project.
+
 ## Features
 
 - **Node.js and Express**: Server setup with the Express framework.
@@ -28,7 +30,7 @@ my-ex-ts/
 ├── src/
 │   ├── server.ts           # Main server file
 │   └── ...                # Additional configuration files
-├── .eslintrc.mjs           # ESLint configuration
+├── eslint.config.mjs           # ESLint configuration
 ├── tsconfig.json          # TypeScript configuration
 ├── nodemon.json          # Nodemon configuration
 └── package.json           # Dependencies and scripts
@@ -45,7 +47,7 @@ Inside your new project directory, you can run the following commands:
 
 ## Customization
 
-After creating your project, you can adjust the ESLint and TypeScript configurations to your liking. The '.eslintrc.js' and 'tsconfig.json' files are ready for you to tailor to your specific project needs.
+After creating your project, you can adjust the ESLint and TypeScript configurations to your liking. The 'eslint.config.mjs' and 'tsconfig.json' files are ready for you to tailor to your specific project needs.
 
 ## Contributing
 
